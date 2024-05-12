@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified Abhishek - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (12/05/2024)
+% 
+% Author
+% Abhishek Singh
+% Repository
+% https://github.com/apurvmishra99/Modified-Deedy-Resume
+
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+%\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Abhishek Singh}{
+  \href{mailto:abhisheksingh31102017@gmail.com}{abhisheksingh31102017@gmail.com} | +91-6290208036 | \href{https://www.linkedin.com/in/abhishek-singh-cg/}{LinkedIn} | \href{https://github.com/abhishek311017?tab=repositories}{GitHub} 
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+\subsection{Techno Main Salt Lake}
+
+\descript{Bachelor of Technology (B.Tech) in Electronics and Instrumentation Engineering (EIE)}
+\location{Grad. July \textbf{2020} | Kolkata, India | DGPA 7.76}
+\sectionsep
+\subsection{Vikram Vidyalaya}
+
+\descript{SCIENCE | PCM}
+\location{Grad. May \textbf{2015} | Howrah, India }
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Capgemini}
+\descript{Full Time | Mar \textbf{2021 } – Present }
+\sectionsep
+\descript{Project 2: Full Stack .NET Developer (Leading Tobacco \& Consumer Goods Corporation)  Apr 2022 – Present}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed and integrated data visualization components, including bar charts and pie charts into the Web Application into the cards.
+\item Spearheaded the conversion of \textbf{SSRS} reports to\textbf{ C\# }formats for seamless exports to Excel, CSV, and PDF.
+\item Led the enhancement and maintenance of a standalone Price Tool developed with \textbf{Angular}, \textbf{Azure Functions}, and \textbf{Node.js}.
+\item Pioneered a \textbf{CMS} using SQL scripts, reducing code redundancy for card components, toast messages, and static content.
+\item Developed a tool with \textbf{Azure Functions} and \textbf{SendGrid} to extract logs from \textbf{Azure Application Insights} and notify stakeholders within specified time frames.
+\item Addressed and resolved various \textbf{Vulnerability} issues, bolstering application stability and user satisfaction.
+\item Implemented a solution leveraging \textbf{SQL stored procedures and Azure Functions} calls, resulting in around \textbf{1.2\%} reduction in costs.
+\item Successfully completed multiple \textbf{proof of concepts (POCs)} to demonstrate feasibility and efficacy of proposed solutions.
+\end{tightemize}
+\descript{Project 1: Data Engineer (Major Telecommunications Company)  Aug 2021 - Jan 2022}
+\begin{tightemize}
+\item Led ETL data migration from sources like \textbf{Hadoop, EDW, ODS to AWS S3 bucket}.
+\item Collaborated with teams for efficient data transfer and cloud storage optimization.
+\item Ensured data integrity and security, addressing migration challenges.
+\item Oversaw framework modifications for data ingestion.
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Cognizant}
+%\descript{SUMMER INTERN | Mar - Jul 2021 | Kolkata , India}
+%\begin{tightemize}
+%item %Learn Advanced Java, Spring Boot, Angular, NoSQL and general programming concepts to a cohort of over 60 students.
+%item %Developed Super Market Billing System Application using Spring Boot and Angular with MySQL as database in agile methodology of software development model
+%\end{tightemize}
+%\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Awards}
+\runsubsection{Xtra Mile Award}
+\sectionsep
+%\descript{ C\# | ASP.NET | TSQL  [Feb 22 - Mar 22]}
+%\descript{ Capgemini | Sep 2022 - Dec 2022}
+\begin{tightemize}
+%\item ECART: A web-based application which facilitates online purchasing by allowing users to select, manage and purchase items.
+%\item Github Link - \href{https://github.com/abhishek311017/SHOPPINGCARTPROJECT/tree/master/SHOPPINGCARTPROJECT}{ECART}.
+\item Capgemini, Sep-Dec 2022.
+\item Recognized for dedication and significant contributions.
+\item Received e-certificate and cash reward.
+\item Committed to continued excellence.
+\end{tightemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\sectionsep
+\location{Languages}
+\textbullet{} Advanced - C\#\\
+\textbullet{} Intermediate - C, Java, SQL\\ 
+\textbullet{} Novice - C++\\
+\sectionsep
+
+\location{Tools}
+\textbullet{} Git
+\textbullet{} Azure Devops CI/CD
+\sectionsep
+
+\location{Framework \& Library}
+\textbullet{}  .Net
+\textbullet{} Spring Boot
+\textbullet{} Angular
+\textbullet{} jQuery 
+\sectionsep
+
+\location{Technologies}
+\textbullet{} HTML\textbullet{} CSS\textbullet{} Javascript
+\sectionsep
+
+\location{Architectural Style}
+\textbullet{} Monolithic
+\textbullet{} Microservices
+\textbullet{} Rest API
+\sectionsep
+
+\location{Databases}
+\textbullet{} MySQL
+\textbullet{} SQL Server
+\textbullet{} MongoDB
+\sectionsep
+
+\location{Cloud Services}
+\textbullet{} Familiar - AWS\\
+\textbullet{} Intermediate - Azure(Certified)
+\sectionsep
+
+\subsection{Others}
+\sectionsep
+\textbullet{} Teaching
+\sectionsep
+\section{Certifications} 
+   
+\textbullet{} \href{https://learn.microsoft.com/api/credentials/share/en-us/SinghAbhishek-7956/49208106931A01DE?sharingId=F1D3E3131BE67783}{{\includegraphics[width=1cm]{fonts/microsoft-certified-azure-fundamentals.png}} \location{Azure Fundamentals (AZ-900)}}
+    \hspace{0.3cm} Issued by: Microsoft\\
+    \hspace{0.3cm} Issued: May 2022\\
+
+\textbullet\href{https://learn.microsoft.com/api/credentials/share/en-us/SinghAbhishek-7956/B4C8BB72123A7280?sharingId=F1D3E3131BE67783}{{\includegraphics[width=1cm]{fonts/microsoft-certified-azure-developer-associate.1.png}} \location{Azure Developer Associate (AZ-204)}}
+    \hspace{0.3cm} Issued by: Microsoft\\
+    \hspace{0.3cm} Issued on: Feb 2023\\
+    %\hspace{0.3cm} Expires: March 2025\\
+    
+ \textbullet\href{https://learn.microsoft.com/api/credentials/share/en-us/SinghAbhishek-7956/8A171FFDD36571E2?sharingId=F1D3E3131BE67783}{{\includegraphics[width=1cm]{fonts/microsoft-certified-expert-badge (1).png}} \location{DevOps Engineer Expert (AZ-400)}}
+   \hspace{0.3cm} Issued by: Microsoft\\
+   \hspace{0.3cm} Issued on: Sep 2023\\
+  % \hspace{0.3cm} Expires: Sep 2025\\
+  
+\textbullet{} \href{https://learn.microsoft.com/en-us/users/singhabhishek-7956/credentials/df6ce4a7001c6349}{{\includegraphics[width=1cm]{fonts/microsoft-certified-fundamentals-badge.png}}\location{Azure AI Fundamentals (AI-900)}}
+   \hspace{0.3cm} Issued by: Microsoft\\
+   \hspace{0.3cm} Issued on: May 2024\\
+   
+\textbullet{}  \location{\href{https://www.coursera.org/account/accomplishments/certificate/8XSRFHM5LWNZ}{Agile Software Development}}
+   \hspace{0.3cm} Issued by: Coursera\\
+   \hspace{0.3cm} Issued: Oct 2021\\
+\sectionsep
+\end{minipage}%
+\end{document}  
+\documentclass[]{article}
